@@ -11,7 +11,9 @@
 ## 1) Skema database (alter `users`)
 
 buat dengan perintah: 
-```php artisan make:migration add_admin_fields_to_users_table --table=users```
+```php
+php artisan make:migration add_admin_fields_to_users_table --table=users
+```
 
 **Migration:** `database/migrations/20xx_xx_xx_xxxxxx_add_admin_fields_to_users_table.php`
 
